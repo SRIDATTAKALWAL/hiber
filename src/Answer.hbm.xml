@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 15 Apr, 2024 4:46:44 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="OnetoOneMap.Answer" table="answer">
+        <id name="Ansid" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="answer" type="java.lang.String">
+            <column name="ansid" />
+        </property>
+    </class>
+</hibernate-mapping>
